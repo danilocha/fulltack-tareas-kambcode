@@ -1,0 +1,12 @@
+.contenedor{ 
+    border-radius: 20px;
+    border: solid 3px rgb(215, 40, 40);
+    font-size: 3rem;
+}
+
+.contenedor2{ 
+    border-radius: 20px;
+    border: solid 2px rgb(27, 20, 145);
+    font-size: 3rem;
+    padding: 10px;
+}
