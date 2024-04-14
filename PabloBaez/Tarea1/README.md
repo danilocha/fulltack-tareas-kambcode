@@ -4,7 +4,7 @@
 ![tarea](../Tarea1/fotoTarea.jpg)
 
 ```javascript
-var miDiv = document.querySelector('#HighlightCardHeading-highlight-uid25ad');
+var miDiv = document.querySelector('.tituloNetflix');
   miDiv.textContent = 'KAMBCODE PELICULAS';
   miDiv.style.color = 'yellow';
 ```
