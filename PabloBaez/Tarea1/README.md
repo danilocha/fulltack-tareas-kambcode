@@ -16,3 +16,6 @@ var miDiv = document.querySelector('#HighlightCardHeading-highlight-uid25ad');
 miDiv.textContent = 'OFERTAS KAMBCODE';
 miDiv.style.color = 'red';
 ```
+## GET PokeAPI
+- Link 1: [locationPokemon.json](locationPokemon.json)
+- Link 2: [regionPokemon.json](regionPokemon.json)
