@@ -1,0 +1,17 @@
+.App {
+  background-color: rgb(174, 175, 175);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  gap: 40px;
+}
+.container {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(211, 232, 225);
+  margin: 0px 40px 40px 40px;
+  padding: 30px;
+}
