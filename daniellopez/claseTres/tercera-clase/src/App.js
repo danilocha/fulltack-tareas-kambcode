@@ -1,5 +1,5 @@
 import React from 'react';
-import Imagen from './components/imagen';
+import ImagenComponent from './components/imagen';
 import Titulo from './components/titulo';
 
 const app = () => { 
@@ -28,7 +28,7 @@ const app = () => {
       {artistas.map((artista) => (
         <>
           <Titulo texto={artista.nombre} />
-          <Imagen imagenes={artista.imagen} estilos={artista.estilosVariables} />
+          <ImagenComponent imagenes={artista.imagen} estilos={artista.estilosVariables} />
           <p> lorem esto es un parrafo muy largo </p>
         </>
       ))}

@@ -1,6 +1,6 @@
 import React from 'react'
 import estilos from './estilos.module.css'
-const Imagen = (props) => {
+const ImagenComponent = (props) => {
     const imagenes = props.imagenes
     const estilosVariables = props.estilos
     // codigo de js 
@@ -12,4 +12,4 @@ const Imagen = (props) => {
     )
 }
 
-export default Imagen
+export default ImagenComponent

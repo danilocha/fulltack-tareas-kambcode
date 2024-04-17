@@ -1,0 +1,10 @@
+.contenedor {
+    padding: 2rem;
+    background-color: antiquewhite;
+}
+.contenedor-pokemones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
