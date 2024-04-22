@@ -1,0 +1,29 @@
+.texbio{ 
+    padding: 50px;
+    border-radius: 20px;
+    background-color: beige;
+    border: solid 2px rgba(139, 55, 55, 0.447);
+    font-size: 1rem;
+}
+
+.textcenter{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+}
+
+.imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
