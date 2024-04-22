@@ -1,0 +1,9 @@
+.container{
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.description{
+    padding: 20px;
+}

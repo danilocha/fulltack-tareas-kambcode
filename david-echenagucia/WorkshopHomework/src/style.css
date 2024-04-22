@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgb(231, 238, 238);
+    font-family: 'Montserrat', 'Arial';
+    padding: 100px 400px 0px 400px;
+}
+
