@@ -1,5 +1,5 @@
 import React from "react";
-import Reloj from "./components/Reloj";
+import Reloj from "./reloj";
 
 function App() {
   return (
