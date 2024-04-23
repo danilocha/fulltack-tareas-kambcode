@@ -33,7 +33,6 @@ function App() {
       Genero: " Salsa",
       Imagen: 'https://tse4.mm.bing.net/th?id=OIP.QSuTIUf1HCME_eSLzpqMnAHaE8&pid=Api&P=0&h=180'
     }
-    
   ];
   return (
 
