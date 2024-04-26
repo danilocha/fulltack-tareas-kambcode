@@ -4,42 +4,40 @@ import experience from '../../components/estilos/experience.module.css';
 
 function Experience() {
     const exp = [
-        [
-            { 
-                date: "2022 - present",
-                title: "Senior Frontend Eingennier -IYK",
-                description: "Building the Whole Wide World﹡",
-                languages: "Remix • Prisma • Tailwind • Shadcn",
-            },
-            { 
-                date: "2014 - 2016",
-                title: "Front End Engineer Neverbland",
-                description: "Part of a tight-knit team of designers...",
-                languages: "React • Redux • CSSModules • Three.js",
-            }
-        ]
+        {
+            date: "January 2022 - December2022",
+            title: "lawyer",
+            description: "legal adviser",
+            languages: "native Spanish",
+        },
+        {
+            date: "December 2022 - July 2023",
+            title: "lawyer",
+            description: "legal adviser",
+            languages: "native Spanish",
+        }
     ]
     return (
-            <>
-                <div >
-                    <h2 className={experience.title_exp} > Experience </h2>
+        <>
+            <div >
+                <h2 className={experience.title_exp} > Experience </h2>
+            </div>
+            {exp.map((info) => (
+                <div className={experience.container}>
+                    <p>Date: {info.date}</p>
+                    <p>Title: {info.title}</p>
+                    <p>Description: {info.description}</p>
+                    <p>Languages: {info.languages}</p>
                 </div>
-                {exp.map((key, i) => (
-                    <div className={experience.container}>
-                        <p>Date: {key.date}</p>
-                        <p>Title: {key.title}</p>
-                        <p>Description: {key.description}</p>
-                        <p>Languages: {key.languages}</p>
-                    </div>
-                ))}
-    
-                <div>
-                    <button className={experience.btn}>Ver más</button>
-                </div>
-    
-    
-            </>
-        )
-    }
+            ))}
+
+            <div>
+                <button className={experience.btn}>Ver más</button>
+            </div>
+
+
+        </>
+    )
+}
 
 export default Experience;
