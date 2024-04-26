@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(1, 1, 11);
+
+  basic-info {
+    width: 20px;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    color: pink;
+  }
+}
