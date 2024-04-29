@@ -1,20 +1,37 @@
-import Description from './components/description/index.jsx';
-import Profile from './components/profile/index.jsx';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import NotFound from './components/pages/notfoud';
 import Experience from './components/experience/index.jsx';
+import App from './components/pages/inicio';
 import './App.css';
+import './components/estilos/experience.module.css'
 
 
 
-function App() {
+
+const Work = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        < Description />
-        < Profile />
-        < Experience />
-      </header >
-    </div >
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Inicio</Link>
+            </li>
+            <li>
+              <Link to="/experience">Acerca de</Link>
+            </li>
+            <li>
+              <Link to="/NotFound">NotFound</Link>
+            </li>
+          </ul>
+        </nav>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/NotFound" element={<NotFound />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
-
-export default App;
+};
+export default Work
