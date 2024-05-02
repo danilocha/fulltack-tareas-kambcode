@@ -1,0 +1,23 @@
+
+.contenido{
+ 
+  
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  
+}
+
+ 
+.enlaces{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  list-style-type: none;
+}
+

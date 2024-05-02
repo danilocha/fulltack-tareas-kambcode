@@ -1,0 +1,15 @@
+.estilo{
+    background-image: url(./yaneth.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 150px;
+    height: 160px;
+    border: 10px solid rgb(33, 91, 191);
+}
+.datos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

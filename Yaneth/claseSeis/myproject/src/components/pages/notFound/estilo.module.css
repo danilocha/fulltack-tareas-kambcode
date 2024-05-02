@@ -1,0 +1,12 @@
+.estilo{
+    background-color: black;
+    color:White;
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    align-items: center;
+
+}
