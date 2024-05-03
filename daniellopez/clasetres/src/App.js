@@ -7,7 +7,7 @@ const app = () => {
     {
       nombre: "artista 1",
       descripcion: "es un cantante",
-      imagen: "https://urgenciesveterinaries.com/wp-content/uploads/2023/09/survet-gato-caida-pelo-01.jpeg"
+      imagen: "https://urgenciesveterinaries.com/wp-content/uploads/2023/09/survet-gato-caida-pelo-01.jpeg",
     },
     {
       nombre: "jaime",
@@ -28,8 +28,8 @@ const app = () => {
       {artistas.map((artista) => (
         <>
           <Titulo texto={artista.nombre} />
-          <ImagenComponent imagenes={artista.imagen} estilos={artista.estilosVariables} />
-          <p> lorem esto es un parrafo muy largo </p>
+          <ImagenComponent artista={artista} />
+          <p> {artista.descripcion} </p>
         </>
       ))}
     </>
