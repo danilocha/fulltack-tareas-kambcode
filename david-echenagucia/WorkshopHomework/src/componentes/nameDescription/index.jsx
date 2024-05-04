@@ -1,6 +1,7 @@
 import image from '../image/david.jpg'
 import style from './style.module.css'
 
+
 function NameDescription() {
   return (
     <>

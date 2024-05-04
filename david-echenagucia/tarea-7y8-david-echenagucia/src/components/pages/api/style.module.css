@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    background-color: rgb(144, 138, 138);
+    padding: 5px;
+}
+
+.btncontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnclass{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.h1{
+    padding: 15px;
+}
+
+.btnserach{
+    padding: 15px;
+    background-color: beige;
+    border-radius: 25px;
+}
+

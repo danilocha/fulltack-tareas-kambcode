@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.workExperience{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.btnContainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    color: blue;
+    text-decoration: underline;
+}
+
+.containerArryAndObjects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: solid 2px black;
+    padding: 10px;
+}

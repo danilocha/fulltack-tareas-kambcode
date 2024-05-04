@@ -10,6 +10,9 @@ function About() {
                     promising career as a JavaScript Front-End Developer, with strong knowledge in Python, SQL, ORMs, and Mongoose.
                 </p>
             </div>
+            <div>Estas en About</div>
+
+      {/*  */}
         </>
     );
 }
