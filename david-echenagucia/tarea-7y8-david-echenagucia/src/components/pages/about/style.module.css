@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    width: auto;
+    border: solid 2px black;
+}
+
+.image{
+    border-radius: 250px;
+    width: 250px;
+    height: 300px;
+}
+
+.containerImageAndText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.about{
+    padding: 25px;
+}
+
+.textdescription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    padding: 20px;
+}
