@@ -1,0 +1,7 @@
+.About {
+    background-color: rgb(190, 190, 203);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}

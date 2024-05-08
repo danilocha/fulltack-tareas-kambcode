@@ -1,13 +1,13 @@
 import React from 'react'
 import estilos from './estilos.module.css'
 const ImagenComponent = (props) => {
-    const imagenes = props.imagenes
-    const estilosVariables = props.estilos
+    console.log(props)
+    const artista = props.artista
     // codigo de js 
     return (
         //codigo de html, {}
-        <div className={estilos.contenedor} style={estilosVariables}>
-            <img src={imagenes} />
+        <div className={estilos.contenedor} style={artista.estilos}>
+            <img src={artista.imagen} />
         </div>
     )
 }
