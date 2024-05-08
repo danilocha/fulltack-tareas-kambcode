@@ -6,8 +6,6 @@ import './App.css';
 import './components/estilos/experience.module.css'
 
 
-
-
 const Work = () => {
   return (
     <Router>
@@ -28,7 +26,7 @@ const Work = () => {
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/experience" element={<Experience />} />
-          <Route path="/NotFound" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </Router>

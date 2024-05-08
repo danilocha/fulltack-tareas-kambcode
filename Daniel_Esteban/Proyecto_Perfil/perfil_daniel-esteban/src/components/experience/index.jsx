@@ -4,8 +4,8 @@ import React from 'react';
 import styles from '../estilos/experience.module.css';
 
 
-const Experience = () => { 
-    const exp  = [
+const Experience = () => {
+    const exp = [
         {
             date: "January 2022 - December2022",
             title: "lawyer",
@@ -33,10 +33,9 @@ const Experience = () => {
                 </div>
             ))}
             <div className={styles.container} >
-            <Link to="/" className={styles.container}>Inicio</Link>
+                <Link to="/" className={styles.container}>Inicio</Link>
             </div>
         </div>
-     
     )
 }
 

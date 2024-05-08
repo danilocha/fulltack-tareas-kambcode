@@ -14,7 +14,6 @@ function Profile() {
                         todo acerca de la programacion para mejorara mi calidad de vida.
                     </h3>
                 </div>
-                <div> </div>
             </div>
         </div>
     );
