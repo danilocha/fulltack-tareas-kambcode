@@ -7,13 +7,13 @@ import './App.css';
 import NavBar from './components/NavBar';
 function App() {
   return (
-    <Router>
-      <NavBar/>
+          <Router>
+        <NavBar/>
       <div>
         <Routes>
-          <Route path="/Home" element={<Home/>} />
-          <Route path="/WorkExperience" element={<WorkExperience/>} />
-          <Route path="/NotFound"element={<NotFound/>} />
+         <Route path="/Home" element={<Home/>} />
+         <Route path="/WorkExperience" element={<WorkExperience/>}/>
+        <Route path="/NotFound" element={<NotFound/>} />
         </Routes>
       </div>
     </Router>

@@ -1,0 +1,60 @@
+.colorTitle{
+  color: blue;
+}
+.r5{
+    background-color: black;
+}
+.boxEncabezado{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: start;
+  margin-left: 300px;
+  gap: 50px;
+
+}
+
+.imagen{
+  height: 150px;
+  width: 150px;
+  border-radius: 80px;
+}
+.boxDescription{
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.boxExperience{
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 300px;
+
+
+}
+.boxReadmore{
+  color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 300px;
+  font-size: 20px;
+}
+.readme{
+  color: red;
+  font-size: 20px;
+  align-items: start;
+  margin-left: 300px;
+}
+.img2{
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-content: end;
+  margin-left: 600px;
+}
