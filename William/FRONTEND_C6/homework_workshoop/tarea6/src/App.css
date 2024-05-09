@@ -3,10 +3,21 @@
   text-align: center;
   background-color: black;
 }
+.Home1{
+  display: flex;
+  background-color: black;
+}
+.routers{
+  background-color: black;
+}
+.Home1{
+  color:aqua;
+  display: flex;
+}
 .todo{
   height:100%;
   padding: 50px;
-  background-color: black;
+  background-color: black; 
 }
 .Work{
   padding: 200px;
