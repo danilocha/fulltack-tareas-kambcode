@@ -1,0 +1,55 @@
+
+/* Estilos */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: cornflowerblue;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.git-projects {
+  margin-top: 20px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 30 auto; 
+  gap: 20px;
+}
+
+.project {
+  display: flex;
+  align-items: flex-start; 
+}
+
+.created-at {
+  font-weight: bold; 
+  margin-right: 50px;
+  margin-left: 20px;
+
+}
+
+.project-info {
+  flex-grow: 1; 
+}
+
+.project h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project p {
+  margin: 0;
+}
+
+/* Estilos adicionales según sea necesario */
